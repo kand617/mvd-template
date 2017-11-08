@@ -47,6 +47,13 @@ defaults:
     layout: about
     sectionid: about
 
+- scope:
+    path: _client_libraries
+    type: client_libraries
+  values:
+    layout: client_libraries
+    sectionid: client_libraries
+
 collections:
   docs:
     permalink: /:collection/:path/
